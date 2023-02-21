@@ -1,0 +1,193 @@
+ *{
+    text-decoration: none;
+ } 
+.navContainer{
+    background-color:bisque;
+    height:8vh;
+    display:flex;
+    justify-content:space-around;
+  }
+.logoContainer{
+   
+    height:90%;
+    margin-left:70px;
+    width:200px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.optionContainer{
+  
+   height:90%;
+   width:50%;
+   font-family: 'Hind Vadodara', sans-serif;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 50px;
+   }
+   .loginBox{
+    
+     height:90%;
+     width:20%;
+     font-family: 'Hind Vadodara', sans-serif;
+     display:flex;
+     align-items: center;
+     margin-left: 50px;
+     margin-right: 40px;
+     }
+.logo{
+    width:70px;
+    height:70px;
+    }
+.name{
+    font-size:25px;
+    font-family: 'Merienda', cursive;
+   
+  } 
+.options,.login{
+  margin-left:45px;
+  font-size: 25px;;
+  color:#484747;
+  background: none;
+  border:none;
+  }   
+  .options:hover,.login:hover{
+   background-color:gray;
+   color:white;
+  }
+*::selection{
+    background-color: red;
+    color:#fff;
+}
+.menuIcon{
+    width:100px;
+    display:none;
+   
+}
+.icon{
+    width:35px;
+    height:30%;
+    margin-left:20px;
+    margin-top: 30px;
+}
+.bigImageContainer{
+    height:60vh;
+    border:solid ;
+    display:flex;
+  }
+.bigImg1{
+    width:50%;
+   height:100%;
+}
+.bigImg2{
+    width:50%;
+    height:100%;
+ }
+
+.descBox{
+    height:30vh;
+    
+    text-align:center;
+}
+.titleText{
+    color:red;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+.desc{
+  font-size: 18px;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+.itemsBox,.soupsBox{
+ 
+  height:40vh;
+  display:flex;
+}
+.item{
+   
+    width:33%;
+    height:100%;
+}
+.pic1,.pic2,.pic3{
+  height:70%;
+ width: 98%;
+}
+.itemdesc,.price{
+height:8%;
+text-align: center;
+}
+.catagory{
+    color:red;
+    text-align: center;
+}
+
+
+@media(max-width:680px)
+{
+    *{
+        text-decoration: none;
+     } 
+    .navContainer{
+        background-color:bisque;
+        height:8vh;
+        display:flex;
+        justify-content:space-around;
+      }
+      .logoContainer{
+   
+        height:90%;
+        margin-left:70px;
+        width:200px;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+       
+    }
+    .optionContainer{
+       height:90%;
+       display:none;
+     }
+     .menuIcon{
+        width:100px;
+        display:initial;
+        }
+    .icon{
+        width:35px;
+        height:30%;
+        margin-left:20px;
+        margin-top: 30px;
+    }
+    .loginBox{
+    
+        height:90%;
+        width:20%;
+        font-family: 'Hind Vadodara', sans-serif;
+        display:flex;
+        align-items: center;
+        margin-right: 30px;
+        }
+    .login{
+        margin-right:25px;
+        font-size: 25px;
+        color:#484747;
+        } 
+        .itemsBox,.soupsBox{
+ 
+          border:solid;
+          display:block;
+           height:fit-content
+          }
+
+        .item{
+            border:solid;
+            width:100%;
+            height:400px;
+           }  
+        
+          .pic1,.pic2,.pic3{
+            height:70%;
+            width: 100%;
+          }
+
+}
